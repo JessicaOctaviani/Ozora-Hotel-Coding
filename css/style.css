@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Kaisei+Opti&family=Kosugi+Maru&family=Mochiy+Pop+P+One&family=Rampart+One&family=RocknRoll+One&family=Zen+Antique&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/1000120314.jpg);
+    background-repeat: unset;
+}
+
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/Background.png);
+}
+
+img{
+    vertical-align: middle;
+}
+
+.krim-meses img {
+    width: 100%;
+    max-width: 990px;
+    position: absolute;
+    top: 0%;
+}
+
+.nama img {
+    width: 100%;
+    max-width: 990px;
+}
+.sub1text{
+    display: block;
+    width: 100%;
+    max-width: 990px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    line-height: 54px;
+    font-family: "Rampart One", sans-serif;
+    font-weight: 400;
+    color: #804000;
+}
+.list ul {
+    display: flex;
+    list-style: none;
+    max-width: 990px;
+    width: 100%;
+    justify-content: space-between;
+    transition: 0.6s;
+    padding-left: 0%;
+    margin-bottom: 3%;
+}
+.humburger{
+    display: none;
+    cursor: pointer;
+}
+#topbutton1 a img:hover{
+    transform: scale(0.9);
+}
+#topbutton2 a img:hover{
+    transform: scale(0.9);
+}
+#topbutton3 a img:hover{
+    transform: scale(0.9);
+}
+#topbutton4 a img:hover{
+    transform: scale(0.9);
+}
+.top {
+    background-image: url(../img/BlockCake.png);
+    width: 100%;
+    max-width: 990px;
+    padding-bottom: 2%;
+}
+.bagian1{
+    margin-top: 10%;
+    width: 100%;
+    max-width: 990px;
+}
+.block1{
+    background-image: url(../img/block1.png);
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 7%;
+    padding-bottom: 8%;
+}
+
+.block2{
+    background-image: url(../img/block2.png);
+    max-width: 837px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    padding-bottom: 7%;
+    border-radius: 25px;
+}
+
+.block3{
+    background-image: url(../img/block3.png);
+    max-width: 843px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    padding-bottom: 9%;
+}
+
+.block4{
+    background-image: url(../img/block4.png);
+    max-width: 847px;
+    margin: auto;
+    padding-bottom: 7%;
+    margin-bottom: 4%;
+}
+.nama1{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 830px;
+}
+.nama1 img{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.nama2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 837px;
+}
+.nama2 img{
+    padding-left: 12%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.nama3{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 843px;
+}
+.nama3 img{
+    padding-left: 18%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.nama4{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 847px;
+}
+.nama4 img{
+    padding-left: 27%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.slideshow-container1{
+    max-width: 990px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.slideshow-container2{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container3{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container4{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container5{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+@keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+
+.textgambar1{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 690px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 21px;
+    line-height: 32px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #ffefe2;
+}
+
+.textgambar2{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 837px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 22px;
+    line-height: 35px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #ffefe2;
+}
+
+.textgambar3{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 843px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 21px;
+    line-height: 36px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #ffefe2;
+}
+
+.textgambar4{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 847px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #ffefe2;
+}
+
+.prev1, .next1{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffeddd;
+    background-color: #ff8944;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next1{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev1:hover, .next1:hover{
+    background-color: #ffeddd;
+    color: #e35500;
+}
+
+.prev2, .next2{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffeddd;
+    background-color: #ff8944;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next2{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev2:hover, .next2:hover{
+    background-color: #ffeddd;
+    color: #e35500;
+}
+
+.prev3, .next3{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffeddd;
+    background-color: #ff8944;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next3{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev3:hover, .next3:hover{
+    background-color: #ffeddd;
+    color: #e35500;
+}
+
+.prev4, .next4{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffeddd;
+    background-color: #ff8944;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next4{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev4:hover, .next4:hover{
+    background-color: #ffeddd;
+    color: #e35500;
+}
+
+.dot1{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot1:hover{
+    background-color: #d85c11;
+}
+
+.dot2{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot2:hover{
+    background-color: #d85c11;
+}
+
+.dot3{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot3:hover{
+    background-color: #d85c11;
+}
+
+.dot4{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+.active, .dot4:hover{
+    background-color: #d85c11;
+}
+
+.dots-container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.plan1-1{
+    width: 100%;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    border-radius: 50px;
+    background-color: #ffd189;
+    border: 4px solid #ed5900;
+}
+
+.plan1-1text{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 22px;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: bold;
+    color: #ba5d00;
+}
+
+.plan1-1button{
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+.plan1-1button a img {
+    max-width: 680px;
+    align-items: center;
+    transition: 0.6s;
+}
+.plan1-1button a img:hover{
+    transform: scale(0.9);
+}
+.plan1-2{
+    width: 100%;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    border-radius: 50px;
+    background-color: #ffd189;
+    border: 4px solid #ed5900;
+}
+
+.plan1-2text{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 22px;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: bold;
+    color: #ba5d00;
+}
+
+.plan1-2button{
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+.plan1-2button a img {
+    max-width: 680px;
+    align-items: center;
+    transition: 0.6s;
+}
+.plan1-2button a img:hover {
+    transform: scale(0.9);
+}
+.plan2{
+    width: 100%;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    border-radius: 50px;
+    background-color: #ffd189;
+    border: 4px solid #ed5900;
+}
+
+.plan2text{
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 4%;
+    font-size: 24px;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: bold;
+    color: #ba5d00;
+}
+
+.plan2button{
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+.plan2button a img {
+    max-width: 680px;
+    align-items: center;
+    transition: 0.6s;
+}
+.plan2button a img:hover{
+    transform: scale(0.9);
+}
+.plan3-1{
+    width: 100%;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    border-radius: 50px;
+    background-color: #ffd189;
+    border: 4px solid #ed5900;
+}
+.textharga1{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    padding-left: 12%;
+    font-family: "Zen Antique", serif;
+    font-weight: bold;
+    color: #9a0000;
+}
+.plan3-1text{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 22px;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: bold;
+    color: #ba5d00;
+}
+.plan3-1button{
+    padding-left: 10%;
+    padding-right: 8%;
+}
+.plan3-1button a img{
+    max-width: 680px;
+    align-items: center;
+    transition: 0.6s;
+}
+.plan3-1button a img:hover{
+    transform: scale(0.9);
+}
+.plan3-2{
+    width: 100%;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    border-radius: 50px;
+    background-color: #ffd189;
+    border: 4px solid #ed5900;
+}
+.textharga2{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    padding-left: 12%;
+    font-family: "Zen Antique", serif;
+    font-weight: bold;
+    color: #9a0000;
+}
+
+.plan3-2text{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 22px;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: bold;
+    color: #ba5d00;
+}
+.plan3-2button{
+    padding-left: 10%;
+    padding-right: 8%;
+}
+.plan3-2button a img{
+    max-width: 680px;
+    align-items: center;
+    transition: 0.6s;
+}
+.plan3-2button a img:hover{
+    transform: scale(0.9);
+}
+.plan4{
+    width: 100%;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    border-radius: 50px;
+    background-color: #ffd189;
+    border: 4px solid #ed5900;
+}
+.bintang{
+    max-width: 680px;
+    margin-bottom: 3%;
+}
+.bintang img{
+    padding-left: 33%;
+    max-width: 800px;
+    
+}
+.textrating1{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 1%;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: bold;
+    color: #793c00;
+}
+.textrating2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: bold;
+    color: #cc1f12;
+
+}
+.text4{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 1%;
+    line-height: 33px;
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-weight: 400;
+    color: #ff9f38;
+    -webkit-text-stroke: 1.1px #793c00;
+    
+}
+.text4-2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1%;
+    font-family: "Zen Antique", serif;
+    font-weight: 400;
+    color: #cc1f12;
+}
+.bottom{
+    display: block;
+    width: 100%;
+    max-width: 990px;
+    margin-top: 10%;
+    padding-bottom: 8%;
+    margin-bottom: 0;
+    background-image: url(../img/Background\ kupon.png);
+}
+.tiketpesawat {
+    display: flex;
+    list-style: none;
+    max-width: 920px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.kupon1{
+    padding-top: 12%;
+    padding-bottom: 1%;
+}
+.kupon1 a img{
+    padding-left: 25%;
+    margin-bottom: 1%;
+    transition: 0.6s;
+}
+.kupon1 a img:hover{
+    transform: scale(0.9);
+}
+.textkupon{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 22px;
+    line-height: 38px;
+    font-family: "Zen Antique", serif;
+    font-weight: 500;
+    color: #e80f00;
+}
+#jal{
+    padding-left: 8%;
+}
+#jal a img{
+    width: 390px;
+    transition: 0.6s;
+}
+#jal a img:hover{
+    transform: scale(0.9);
+}
+#ana a img{
+    width: 390px;
+    transition: 0.6s;
+}
+#ana a img:hover{
+    transform: scale(0.9);
+}
+.kupon2 a img{
+    padding-left: 25%;
+    margin-bottom: 1%;
+    transition: 0.6s;
+}
+.kupon2 a img:hover{
+    transform: scale(0.9);
+}
